@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<head>
+    <title>About</title>
+
+    <h1>About page</h1>
+    
+    <p>This page has been put together by {{ my_name }}</p>
+
+    <div>
+        <a href="/rango/">Home - Rango</a><br />
+        <img src="{% static "images/pug_grass.jpg" %}"
+                alt="Pug on grass" /> <!-- New line -->
+    </div>
